@@ -1,0 +1,99 @@
+body {
+    background-color: hsla(212, 100%, 79%, 1);
+    font-family: fantasy;
+}
+
+header {
+    height: 300px;
+    background-color: hsla(202, 57%, 60%, 1);
+    margin: 40px;
+    border-radius: 40px;
+}
+
+.logo {
+    margin-top: 50px;
+    margin-left: 570px;
+}
+
+.navbar {
+    margin-left: 440px;
+}
+
+li {
+    display: inline-flex;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration-style: none;
+}
+
+li + li {
+    margin-left: 20px;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+.search {
+    margin-left: 525px;
+}
+
+h1 {
+    margin-left: 600px;
+}
+
+.servicos {
+    display: inline-flex;
+    border-radius: 40px;
+    margin-left: 170px;
+    background-color: hsla(202, 57%, 60%, 1);
+}
+
+.imagensservicos {
+    border-radius: 18px;
+    width: 164px;
+    height: 147px;
+}
+
+figure {
+    padding: 40px;
+}
+
+main div+div {
+    margin: 40px
+}
+
+figcaption {
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+footer {
+    display: flex;
+    margin: 40px;
+    background-color: hsla(202, 57%, 60%, 1);
+    height: 400px;
+    border-radius: 40px;
+}
+
+.contatos {
+    display: block;
+}
+
+.contatos figure {
+    padding: 30px;
+}
+
+.mapa{
+    margin-top: 5px;
+    margin-left: 300px;
+}
