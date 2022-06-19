@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(23, 117, 240); 
+}
+
+h1{
+    font-family: 'Poppins';
+    font: normal;
+    color: white;
+    font-weight: 400;
+}
+p{
+    font-family: 'Poppins';
+    font: normal;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw
+  
+}
+
+.cartao{
+    
+    background: #60AAD4;
+    width: 250px;
+    height: 280px;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.cartao_titulo{
+    padding-bottom: 35px;
+}
+
+.cartao_area{
+    display: flex;
+
+    flex-direction: column;
+    padding: 0px 0;/*5px*/  
+}
+
+/*.cartao_area label{
+    padding: 5px 0;
+}*/
+
+.cartao_area input{
+    outline: none;
+    height: 20px;    
+    border-radius: 5px;
+    border: none;
+    padding: 4px;
+    margin: 5px 0;
+}
+
+.cartao_footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.cartao_footer_link{
+    display: flex;
+    justify-content: space-between;
+}
+.cartao_footer_link a{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 13px;
+    color: white;
+}
+.cartao_footer_submit{
+    display: flex;
+    justify-content: center;
+}
+
+.cartao_footer_submit .submit{ 
+    border-radius: 5px;
+    border: none;  
+    width: 35%; 
+    height: 30px;
+    outline: none;
+    margin: 20px 0;
+    
+    font-family: 'Poppins';
+    font-size: 15px;
+}
