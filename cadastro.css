@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(23, 117, 240); 
+}
+
+h1{
+    font-family: 'Poppins';
+    font: normal;
+    font-weight: 400;
+    color: white;
+}
+
+p{
+    font-family: 'Poppins';
+    font: normal;
+    font-weight: 400;
+    color: white
+}
+
+.cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+.cartao{
+    background-color: #60AAD4;
+    border-radius: 5px;
+    width: 250px;
+    padding: 50px;
+}
+
+.cartao_titulo{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.cartao_area{
+    display: flex;
+    flex-direction: column;
+}
+
+.cartao_area input{
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 3px;
+    margin: 5px 0;
+}
+
+.cartao_botao{
+    display: flex;
+    justify-content: center;
+}
+
+.cartao_botao .submit{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 40%;
+    height: 30px;
+    margin: 20px 0;
+}
+
+
+
+
+
+
