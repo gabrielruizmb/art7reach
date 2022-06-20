@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(23, 117, 240); 
+}
+
+h1{
+    font-family: 'Poppins';
+    font: normal;
+    font-weight: 400;
+    font-size: 29px;
+}
+
+p{
+    font-family: 'Poppins';
+    font: normal;
+}
+
+.gerenciamento_estoque{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    height: 100vh;
+}
+
+.conteiner_estoque{
+    background-color: #60AAD4;
+    border-radius: 15px;
+    
+    width: 700px;
+    height: 500px;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row; 
+}
+.tabela{
+    width: 400px;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.categoria_estoque{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+    margin-top: 10px;
+}
+
+.conteiner_tabela{
+    margin: 40px;
+}
+   
+.imagem_estoque{
+    margin-top: 110px;
+}
+
+.imagem_estoque img{
+    width: 60%;
+}
