@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="login">
+        <form class="cartao" id="form">
+            <div class="cartao_titulo">
+                <h1>Login</h1>
+            </div>
+                <div class="cartao_area">
+                    <label for="email"><p> Email</p></label>
+                    <input type="text" name="email" id="Email" class="input">
+                    <small>Email invalido</small>
+                </div>
+                <div class="cartao_area">
+                    <label for="senha"><p> Senha</p></label>
+                    <input type="password" name="senha" id="Senha" class="input">
+                    <small>Senha invalida</small>
+                </div>
+            <div class="cartao_footer">
+                <div class="cartao_footer_link">
+                    <a href="/Cadastro_formulario/cadastro.html" target="_blank">Já se cadastrou?</a>
+                    <a href="/Recuperar senha - formulario/recuperar_senha.html" target="_blank">Esqueceu a senha?</a>
+                </div>
+                <div class="cartao_footer_submit">
+                    <input type="submit" value="Login" class="submit">
+                </div>
+            </div>  
+        </form>
+        <script src="login.js"></script>
+    </div>
+</body>
+</html>
