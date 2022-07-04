@@ -14,11 +14,13 @@ h1{
     font: normal;
     font-weight: 400;
     font-size: 29px;
+    color: #ffffff;
 }
 
 p{
     font-family: 'Poppins';
     font: normal;
+    color: #000000;
 }
 
 .gerenciamento_estoque{
