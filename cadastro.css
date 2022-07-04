@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+h1{
+    font-family: 'Poppins';
+    font: normal;
+    font-weight: 400;
+    color: white;
+}
+
+p{
+    font-family: 'Poppins';
+    font: normal;
+    font-weight: 400;
+    color: white
+}
+
+body{
+    background-color: rgb(23, 117, 240); 
+}
+
+.cartao_titulo{/*Titulo login   NOVO*/
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.cadastro{/*Primeiro div*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 100vh;  
+}
+  
+.cartao{ /*Class Formulario*/
+    background-color: #60AAD4;
+    border-radius: 5px;
+    width: 300px;
+    padding: 50px 60px;
+}
+  
+  
+.cartao_area{/*div label e inputs*/
+    /*display: flex;
+    flex-direction: column;*/
+  
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+  
+}
+  
+.cartao_area input{
+    border: 2px solid #f0f0f0;
+      
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    height: 35px;
+    padding-left: 10px; 
+    outline: none;
+      
+}
+
+.cartao_botao{/*CENTRALIZAR A Div*/
+    display: flex;
+    justify-content: center;
+}
+
+.cartao_botao .submit{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 40%;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+.cartao_area small{     
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden; 
+}
+  
+  /*Erro e sucesso*/
+  
+.cartao_area.success input{
+    border-color: #2ecc71
+}
+  
+.cartao_area.error input{
+    border-color: #e74c3c
+}
+  
+.cartao_area.error small{
+    visibility: visible;
+    color: #e74c3c;
+}
+
