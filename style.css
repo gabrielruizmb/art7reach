@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Sriracha&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration-line: none;
+  color: white;
+  font-family: 'Inter';
+}
+
+body {
+  background-color: hsla(213, 100%, 79%, 1);
+}
+
+header {
+  border-radius: 10px;
+  background-color: hsla(202, 57%, 60%, 1);
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  left: 20px;
+}
+
+.account {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.log-in, .sign-in {
+  background-color: hsla(213, 100%, 79%, 1);
+  margin:  10px 10px 0px 10px;
+  padding: 5px;
+  border-radius: 10px; 
+}
+
+.log-in:hover, .sign-in:hover {
+  box-shadow: 0 0 1em white;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  font-family: 'Permanent Marker', cursive;
+  color: whitesmoke;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  color: black;
+  background-color: white;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px; 
+}
+
+.navbar a:hover {
+  box-shadow: 0 0 1em white;
+}
+
+.services {
+  margin: 200px 20px 20px 20px;
+  background-color: hsla(202, 57%, 60%, 1);
+  border-radius: 10px;
+}
+
+.products {
+  margin: 40px 20px 20px 20px;
+  background-color: hsla(202, 57%, 60%, 1);
+  border-radius: 10px;
+}
+
+.servicestitle {
+  display: flex;
+  justify-content: center;
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  margin-top: 10px;
+}
+
+.servicesimages{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+}
+
+.service {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.service img {
+  width: 300px;
+  height: 200px;
+}
+
+footer {
+  margin: 40px 20px 20px 20px;
+  background-color: hsla(202, 57%, 60%, 1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .info {
+  margin: 40px 20px 20px 40px;
+  background-color: hsla(202, 57%, 60%, 1);
+  border-radius: 10px;
+  font-family: 'Inter';
+  color: white;
+}
+
+footer iframe {
+  margin: 10px;
+  width: 300px;
+  height: 200px; 
+}
+
+@media (max-width: 600px){
+  footer {
+    display: block;
+  }
+}
