@@ -129,3 +129,29 @@ footer iframe {
     display: block;
   }
 }
+
+.orcamento {
+  margin: 200px 20px 20px 20px;
+  background-color: hsla(202, 57%, 60%, 1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.formtitle {
+  margin-bottom: 30px;
+  font-family: 'Inter';
+  color: white;
+}
+
+.formfont {
+  font-family: 'Inter';
+  color: white;
+}
+
+form div+div {
+  margin: 10px;
+}
+
+.formbutton {
+  margin: 20px;
+}
