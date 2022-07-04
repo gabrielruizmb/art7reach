@@ -17,28 +17,28 @@
             <div class="conteiner_prod">
                 <div class="nome_prod">
                     <label>Nome do Produto</label>
-                    <input type="text" name="prod" class="nomeProd">
+                    <input type="text" name="prod" class="nomeProd" id="nome">
                 </div>
                 <div class="nome_prod">
                     <label>Preço</label>
-                    <input type="number" name="prod" class="number">
+                    <input type="number" name="prod" class="number" id="preco">
                 </div>
                 <div class="nome_prod">
-                    <label>Unidade de Venda</label>
-                    <input type="number" name="prod" class="number">
+                    <label>Unidades</label>
+                    <input type="number" name="prod" class="number" id="quantidade">
                 </div>
                 <div class="nome_prod">
                     <label>Descrição do produto</label>
-                    <input type="text" name="prod" class="desc">
+                    <input type="text" name="prod" class="desc" id="descricao">
                 </div>
                 <div class="nome_prod">
-                    <button>Cadastrar</button>
+                    <input type="button" value="Cadastrar" class="button" onclick="validacaoproduto('nome', 'preco', 'quantidade', 'descricao')">
+                    <!--<button>Cadastrar</button>-->
                 </div>
             </div>
         </div>
     </div>
-
-
+    
     <div class="Cadastro_Serviços">
         <div class="conteiner2">
             <div class="img_serviço">
@@ -48,17 +48,19 @@
             <div class="conteiner_serviço">
                 <div class="nome_serviço">
                     <label>Nome do Serviço</label>
-                    <input type="text" name="prod" class="nomeserviço">
+                    <input type="text" name="prod" class="nomeServico" id="Nomeservico">
                 </div>
                 <div class="nome_serviço">
                     <label>Descrição do Serviço</label>
-                    <input type="text" name="prod" class="desc_serviço">
+                    <input type="text" name="prod" class="desc_Servico" id="Desc_servico">
                 </div>
                 <div class="nome_serviço">
-                    <button>Cadastrar</button>
+                    <input type="button" value="Cadastrar" class="button" onclick="validacaoservico('Nomeservico', 'Desc_servico')">
                 </div>
             </div>
         </div>
     </div>
+    
+    <script src="cadastro_produto.js"></script>
 </body>
 </html>

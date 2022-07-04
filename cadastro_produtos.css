@@ -76,6 +76,7 @@ h1{
     border: none;
     outline: none;
     border-radius: 5px;
+    padding-left: 10px;
 }
 
 .number{
@@ -84,6 +85,7 @@ h1{
     border: none;
     outline: none;
     border-radius: 5px;
+    padding-left: 10px;
 }
 
 .desc{
@@ -92,24 +94,31 @@ h1{
     border: none;
     outline: none;
     border-radius: 5px;
+    padding-left: 10px;
 }
 /*------------------------------*/
 
 /*------------ BOTAO -----------*/
 
-.nome_prod button{
+.nome_prod .button{
     width: 50%;
     height: 30px;
     border: none;
+    border-radius: 5px;
     margin-top: 15px;
 
     font-family: 'Poppins';
     font: normal;
     font-weight: 400;
     font-size: 15px;
+    cursor: pointer;
 }
 /*------------------------------*/
 
+
+
+
+/*---------- CADASTRO SERVIÇOS ----------*/
 .Cadastro_Serviços{
     display: flex;
     flex-direction: column;
@@ -164,34 +173,38 @@ h1{
 }
 
 /*CLASS DE INPUT*/
-.nomeserviço{
+.nomeServico{
     width: 70%;
     height: 25px;
     border: none;
     outline: none;
     border-radius: 5px;
+    padding-left: 10px;
 }
 
-.desc_serviço{
+.desc_Servico{
     width: 70%;
     height: 25px;
     border: none;
     outline: none;
     border-radius: 5px;
+    padding-left: 10px;
 }
 /*------------------------------*/
 
 /*------------ BOTAO -----------*/
 
-.nome_serviço button{
+.nome_serviço .button{
     width: 50%;
     height: 30px;
     border: none;
     margin-top: 15px;
+    border-radius: 5px;
 
     font-family: 'Poppins';
     font: normal;
     font-weight: 400;
     font-size: 15px;
+    cursor: pointer;
 }
 /*------------------------------*/
