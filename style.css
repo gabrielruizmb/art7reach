@@ -45,7 +45,11 @@ header {
   justify-content: center;
   font-family: 'Permanent Marker', cursive;
   color: whitesmoke;
+}
 
+.imagelogo {
+  width: 117px;
+  height: 81px;
 }
 
 .navbar {
