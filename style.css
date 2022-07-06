@@ -16,12 +16,11 @@ body {
 }
 
 header {
-  border-radius: 10px;
   background-color: hsla(202, 57%, 60%, 1);
   position: fixed;
-  top: 20px;
-  right: 20px;
-  left: 20px;
+  top: 0px;
+  right: 0px;
+  left: 0px;
 }
 
 .account {
@@ -47,11 +46,6 @@ header {
   color: whitesmoke;
 }
 
-.imagelogo {
-  width: 117px;
-  height: 81px;
-}
-
 .navbar {
   display: flex;
   justify-content: center;
@@ -70,15 +64,17 @@ header {
 }
 
 .services {
-  margin: 250px 20px 20px 20px;
+  margin: 222px 20px 20px 20px;
   background-color: hsla(202, 57%, 60%, 1);
   border-radius: 10px;
+  box-shadow: 0 0 1em black;
 }
 
 .products {
   margin: 40px 20px 20px 20px;
   background-color: hsla(202, 57%, 60%, 1);
   border-radius: 10px;
+  box-shadow: 0 0 1em black;
 }
 
 .servicestitle {
@@ -112,6 +108,7 @@ footer {
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
+  box-shadow: 0 0 1em black;
 }
 
 footer .info {
@@ -122,23 +119,28 @@ footer .info {
   color: white;
 }
 
+.list li{
+  margin-bottom: 5px;
+}
+
 footer iframe {
   margin: 10px;
   width: 300px;
   height: 200px; 
 }
 
-@media (max-width: 600px){
+@media (max-width: 650px){
   footer {
     display: block;
   }
 }
 
 .orcamento {
-  margin: 200px 20px 20px 20px;
+  margin: 220px 20px 20px 20px;
   background-color: hsla(202, 57%, 60%, 1);
   border-radius: 10px;
   text-align: center;
+  box-shadow: 0 0 1em black;
 }
 
 .formtitle {
