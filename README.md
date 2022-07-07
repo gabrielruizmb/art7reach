@@ -7,3 +7,6 @@ O projeto Art7Reach desenvolverá um site para uma gráfica,
 
 # Link para o site:
 https://gabrielruizmb.github.io/art7reach/
+
+# Colaboradores do projeto:
+Eduardo R. Ferreira: https://github.com/77Eduardo e Gabriel Ruiz: https://github.com/gabrielruizmb
