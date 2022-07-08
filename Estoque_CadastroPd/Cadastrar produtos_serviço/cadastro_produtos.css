@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(23, 177, 240);
+}
+
+h1{
+    font-family: 'Poppins';
+    font: normal;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.Cadastro_produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+   
+}
+
+.conteiner{
+   /*width: 700px;
+    height: 400px;*/
+    box-sizing: border-box;
+    background-color: #60AAD4;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+
+.img_prod{
+    margin: 30px;
+}
+
+.img_prod img{
+    width: 90%;
+    margin-top: 50px;
+}
+
+.conteiner_prod{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin-top: 50px;
+}
+
+.nome_prod{
+    display: flex;
+    flex-direction: column;
+    
+    margin: 5px 40px;
+}
+
+.nome_prod label{
+    font-family: 'Poppins';
+    font: normal;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+/*CLASS DE INPUT*/
+.nomeProd{
+    width: 70%;
+    height: 25px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.number{
+    width: 22%;
+    height: 25px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.desc{
+    width: 70%;
+    height: 25px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+/*------------------------------*/
+
+/*------------ BOTAO -----------*/
+
+.nome_prod .button{
+    width: 50%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+
+    font-family: 'Poppins';
+    font: normal;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+}
+/*------------------------------*/
+
+
+
+
+/*---------- CADASTRO SERVIÇOS ----------*/
+.Cadastro_Serviços{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    
+}
+
+.conteiner2{
+   /*width: 700px;
+    height: 400px;*/
+    box-sizing: border-box;
+    background-color: #60AAD4;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+
+.img_serviço{
+    margin: 30px;
+}
+
+.img_serviço img{
+    width: 90%;
+    margin-top: 50px;
+}
+
+.conteiner_serviço{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin-top: 50px;
+}
+
+.nome_serviço{
+    display: flex;
+    flex-direction: column;
+    
+    margin: 5px 40px;
+}
+
+.nome_serviço label{
+    font-family: 'Poppins';
+    font: normal;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+/*CLASS DE INPUT*/
+.nomeServico{
+    width: 70%;
+    height: 25px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.desc_Servico{
+    width: 70%;
+    height: 25px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+/*------------------------------*/
+
+/*------------ BOTAO -----------*/
+
+.nome_serviço .button{
+    width: 50%;
+    height: 30px;
+    border: none;
+    margin-top: 15px;
+    border-radius: 5px;
+
+    font-family: 'Poppins';
+    font: normal;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+}
+/*------------------------------*/
